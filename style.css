@@ -1,0 +1,194 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+
+}
+body{
+box-sizing: border-box;
+  overflow: hidden;
+
+}
+header div img{
+    width: 120px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+header{
+    margin-right: 10px;
+    z-index: 1;
+    margin-left: 100px;
+    justify-content:  space-between;
+    position: fixed;
+    display: flex;
+    
+}
+header a{
+    line-height: 30px;
+    padding: 0 15px;
+    white-space: nowrap;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(34 , 34, 34);
+}
+.middle {
+    margin-left: 200px;
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.middle a:nth-child(6){
+    margin-right: 300px; 
+}
+
+
+
+.middle a:hover{
+    background-color: rgba(124, 120, 120, 0.15);
+    z-index: 1; 
+    opacity: 1;
+    border-radius: 10px;
+}
+.main-1{
+    display: flex;
+    overflow: auto;
+    flex: none;
+    width: 100%;
+    height: 100vh;
+    flex-flow: column nowrap;
+   
+
+
+}
+.main-1>div{
+    text-align: center;
+    flex: none;
+    width: 100%;
+    height: 100%;
+}
+.main-1 div img{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -4px;
+    object-fit: cover;
+    object-position: center;
+   
+}
+.main-2{
+    position: relative;
+}
+
+.head {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    height: 40vh;
+    align-items: center;
+}
+.head h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+    padding-bottom: 5px;
+   
+   
+}
+.head a{
+    color: rgb(53, 53,53);
+    font-size: 17px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    color: black;
+}
+.head a:hover{
+    border-bottom: 3px solid black;
+
+}
+.data{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    justify-content: center; 
+}
+.data div{
+    display: flex;
+    justify-content: center;
+}
+.button div{
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+   
+}
+
+.buy{
+    background-color: #393c41;
+    color: white;
+  
+}
+.order{
+    background-color: #eeebeb;
+    color: #393c41;
+}
+.order,.buy{
+    font-size: 14px;
+    font-weight: 500;
+}
+.blank{
+    height: 70px;
+   
+}
+.data .arrow{
+    height: 60px;
+    font-size: 25px;
+    color: rgb(75, 75,75);
+    position: relative;
+
+}
+
+footer{
+    
+    z-index: 2;
+    margin-left: 300px;
+    padding-bottom: 20px;
+     
+   
+  
+}
+footer ul{
+    position: absolute;
+    display: flex;
+   
+    background-color: #fff;
+    
+    margin-left: 150px;
+    
+}
+footer li {
+   margin: 30px 8px; 
+  
+}
+footer a{
+    color: #5c5e62;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
